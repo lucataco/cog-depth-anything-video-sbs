@@ -1,0 +1,20 @@
+# Configuration for Cog ⚙️
+# Reference: https://github.com/replicate/cog/blob/main/docs/yaml.md
+
+build:
+  gpu: true
+  system_packages:
+    - "libgl1-mesa-glx"
+    - "libglib2.0-0"
+    - "ffmpeg"
+  python_version: "3.11"
+  python_packages:
+    - "torch"
+    - "pillow"
+    - "torchvision"
+    - "git+https://github.com/NielsRogge/transformers.git@add_depth_anything"
+    - "opencv-python-headless"
+    - "huggingface_hub"
+
+# predict.py defines how predictions are run on your model
+predict: "predict.py:Predictor"
