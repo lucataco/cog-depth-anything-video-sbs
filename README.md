@@ -15,3 +15,11 @@ Run a prediction:
 ## Output
 
 ![output](output.gif)
+
+## License
+
+The code in this repository is licensed under the [Apache License 2.0](LICENSE).
+
+`depth_anything/` comes from [LiheYoung/Depth-Anything](https://github.com/LiheYoung/Depth-Anything), which is Apache 2.0.
+
+The model weights are not covered by this license. [LiheYoung/depth-anything-small-hf](https://huggingface.co/LiheYoung/depth-anything-small-hf) is released under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license.
